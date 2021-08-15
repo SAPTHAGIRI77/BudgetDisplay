@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.total_bg {
+    background-color: #fff7ed;
+}
+
+.main_head {
+    color: #1e293b;
+    font-weight: 400;
+
+}
+
+.image {
+    height: 30px;
+    width: 45px;
+    margin-bottom: 10px;
+}
+
+.second_div {
+    padding: 10px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.second_div_head {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.second_indi_div {
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.second_div_para {
+    font-weight: bold;
+}
+
+.input_rupees {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    ;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.button_1 {
+    border-radius: 10px;
+}
+
+.budget_error {
+    color: red;
+    font-size: 15px
+}
+
+.button_2 {
+    background-color: #475569;
+    color: white;
+    border-radius: 10px;
+}
+
+.expenses_history {
+    font-size: 20px;
+}
+
+.expenses_history_para {
+    font-size: 15px;
+}
+
+.expenses_history_para_2 {
+    font-size: 15px;
+    padding-left: 70px;
+}
+
+.expenses_title_js {
+    color: #475569;
+    font-size: 15px;
+}
+
+.expenses_amount_js {
+    color: #ea580c;
+    font-size: 15px;
+}
+
+.last_div {
+    justify-content: space-between;
+}
+
+.un_list {
+    list-style-type: none;
+}

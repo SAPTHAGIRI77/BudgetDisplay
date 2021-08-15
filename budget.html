@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="budget.css" type="text/css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="total_bg pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                    <h1 class="main_head mb-3 text-center">Budget App</h1>
+                </div>
+
+                <div class="col-12">
+                    <div class="second_div">
+
+                        <div class="second_indi_div">
+                            <h1 class="second_div_head">Budget</h1>
+                            <img src="https://assets.ccbp.in/frontend/dynamic-webapps/budget-img.png" class="image" />
+                            <p class="second_div_para" id="budgetAmount">0</p>
+                        </div>
+
+                        <div class="second_indi_div">
+                            <h1 class="second_div_head">Expenses</h1>
+                            <img src="https://assets.ccbp.in/frontend/dynamic-webapps/expenses-img.png" class="image" />
+                            <p class="second_div_para" id="totalExpensesAmount">0</p>
+                        </div>
+
+                        <div class="second_indi_div">
+                            <h1 class="second_div_head">Balance</h1>
+                            <img src="https://assets.ccbp.in/frontend/dynamic-webapps/balance-img.png" class="image" />
+                            <p class="second_div_para" id="balanceAmount">0</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-5">
+                    <div>
+                        <div class="input_rupees">
+                            <p>Please enter the budget</p>
+                            <input type="text" class="form-control" id="budgetInput" />
+                            <p class="budget_error" id="budgetInputErrMsg"></p>
+                            <button class="button_1 btn btn-primary" id="setBudgetBtn">Set Budget</button>
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="col-12">
+
+                        <form class="input_rupees" id="myForm">
+
+                            <p>Please enter the expenses title</p>
+                            <input type="text" class="form-control" id="expenseTitleInput" />
+                            <p class="budget_error" id="expenseTitleInputErrMsg"></p>
+
+                            <p>Please enter the expenses amount</p>
+                            <input type="text" class="form-control" id="expenseAmountInput" />
+                            <p class="budget_error" id="expenseAmountInputErrMsg"></p>
+
+                            <button type="submit" class="btn button_2 mt-2" id="addExpenseBtn">Add Expenses</button>
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-lg-7">
+
+                    <div class="input_rupees ">
+
+                        <h1 class="expenses_history text-center mb-4">Expenses History</h1>
+
+                        <div class="d-flex flex-row ml-3 mb-3">
+                            <h1 class="expenses_history_para mr-5">Expenses Title</h1>
+                            <h1 class="expenses_history_para_2 ml-5">Amount Spent</h1>
+                        </div>
+
+                        <ul class="un_list" id="expensesHistory">
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script src="budget.js"></script>
+</body>
